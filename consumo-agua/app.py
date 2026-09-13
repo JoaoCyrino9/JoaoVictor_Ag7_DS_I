@@ -1,6 +1,3 @@
-TIPOS_IMOVEL = {"comercial", "casa", "apartamento"}
-
-
 def classificar_consumo():
     # Solicita o tipo de imóvel
     tipo_imovel = input('Digite o tipo de imóvel ("comercial", "casa" ou "apartamento"): ').strip().lower()
